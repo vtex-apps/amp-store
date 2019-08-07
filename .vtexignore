@@ -1,0 +1,7 @@
+.DS_Store
+.git
+node_modules/
+.vscode/
+.gitignore
+**/__tests__/**
+**/*.test.(j|t)sx?

@@ -1,0 +1,10 @@
+{
+  "amp-store": {
+    "component": "*",
+    "around": ["ampProvider"]
+  },
+  "amp-store.home": {},
+  "ampProvider": {
+    "component": "AmpProvider"
+  }
+}
