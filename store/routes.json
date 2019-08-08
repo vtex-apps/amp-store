@@ -1,5 +1,6 @@
 {
   "amp-store.home": {
-    "path": "/amp/"
+    "path": "/amp/",
+    "canonical": "/"
   }
 }
