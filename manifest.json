@@ -10,6 +10,9 @@
   "peerDependencies": {
     "vtex.store": "2.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vtex.store-header": "2.x",
+    "vtex.store-footer": "2.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
