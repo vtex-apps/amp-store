@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "amp-store",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "title": "VTEX base AMP store.",
   "builders": {
     "store": "0.x",
