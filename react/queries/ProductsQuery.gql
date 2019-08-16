@@ -1,0 +1,63 @@
+query Products(
+  $category: String
+  $collection: String
+  $orderBy: String
+  $from: Int
+  $to: Int
+  $hideUnavailableItems: Boolean = false
+) {
+  products(
+    category: $category
+    collection: $collection
+    orderBy: $orderBy
+    from: $from
+    to: $to
+    hideUnavailableItems: $hideUnavailableItems
+  ) {
+    cacheId
+    productId
+    productName
+    productReference
+    description
+    categories
+    link
+    linkText
+    brand
+    brandId
+    items {
+      name
+      itemId
+      referenceId {
+        Value
+      }
+      images {
+        imageUrl
+        imageTag
+        imageLabel
+      }
+      sellers {
+        sellerId
+        commertialOffer {
+          Installments (criteria: MAX) {
+            Value
+            InterestRate
+            TotalValuePlusInterestRate
+            NumberOfInstallments
+            Name
+          }
+          AvailableQuantity
+          Price
+          ListPrice
+        }
+      }
+    }
+    productClusters {
+      id
+      name
+    }
+    properties {
+      name
+      values
+    }
+  }
+}

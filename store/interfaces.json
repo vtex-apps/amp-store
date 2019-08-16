@@ -5,7 +5,9 @@
     "after": ["footer"],
     "around": ["ampProvider"]
   },
-  "amp-store.home": {},
+  "amp-store.home": {
+    "component": "Home"
+  },
   "ampProvider": {
     "component": "AmpProvider"
   }
