@@ -13,7 +13,8 @@
   "dependencies": {
     "vtex.store-header": "2.x",
     "vtex.store-footer": "2.x",
-    "vtex.store-graphql": "2.x"
+    "vtex.store-graphql": "2.x",
+    "vtex.styleguide": "9.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

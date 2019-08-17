@@ -3,14 +3,13 @@ import { graphql } from 'react-apollo'
 import productsQuery from '../queries/ProductsQuery.gql'
 import ProductList from "./ProductList";
 
-const ShelfAmp: React.FC = ({ data }) => {
+const Shelf: React.FC = ({ data }) => {
   const { loading , error, products } = data || {}
 
   return (
-    <div>
-      <h1>{products[0].productId}</h1>
+    <section className="pv4 pb9">
       <ProductList products={products}/>
-    </div>
+    </section>
   )
 }
 
@@ -25,8 +24,8 @@ const options = {
   }
 }
 
-const EnhancedShelfAmp = graphql(productsQuery, options)(ShelfAmp)
+const EnhancedShelf = graphql(productsQuery, options)(Shelf)
 
 
 
-export default EnhancedShelfAmp
+export default EnhancedShelf
