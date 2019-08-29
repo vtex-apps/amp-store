@@ -35,13 +35,13 @@ const AmpProvider: React.FC = ({ children }) => {
       <Helmet
         title={title}
         meta={[
-          { name: 'description', content: description },
-          { name: 'keywords', content: keywords },
-          { name: 'copyright', content: storeName },
-          { name: 'author', content: storeName },
-          { name: 'country', content: country },
-          { name: 'language', content: locale },
-          { name: 'currency', content: currency },
+          { name: 'description', content: description || '' },
+          { name: 'keywords', content: keywords || '' },
+          { name: 'copyright', content: storeName || '' },
+          { name: 'author', content: storeName || '' },
+          { name: 'country', content: country || '' },
+          { name: 'language', content: locale || '' },
+          { name: 'currency', content: currency || '' },
           { name: 'robots', content: metaTagRobots || META_ROBOTS },
           { httpEquiv: 'Content-Type', content: CONTENT_TYPE },
         ]}
