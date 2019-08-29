@@ -44,7 +44,7 @@ const AmpProvider: React.FC = ({ children }) => {
           { name: 'currency', content: currency },
           { name: 'robots', content: metaTagRobots || META_ROBOTS },
           { httpEquiv: 'Content-Type', content: CONTENT_TYPE },
-        ]}
+        ].filter(meta => !!meta.content)}
       />
       {children}
     </React.Fragment>
