@@ -1,7 +1,7 @@
 {
   "amp-store": {
     "component": "*",
-    "before": ["header"],
+    "before": ["amp-header"],
     "after": ["footer"],
     "around": ["ampProvider"]
   },

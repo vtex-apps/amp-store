@@ -9,7 +9,8 @@
     "docs": "0.x"
   },
   "peerDependencies": {
-    "vtex.store": "2.x"
+    "vtex.store": "2.x",
+    "vtex.amp-header": "0.x"
   },
   "dependencies": {
     "vtex.store-header": "2.x",
