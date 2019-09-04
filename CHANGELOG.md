@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3] - 2019-09-04
+### Added
+- Runtime config to AMP state.
+
 ## [0.1.2] - 2019-09-04
 
 ## [0.1.1] - 2019-08-29
