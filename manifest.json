@@ -5,7 +5,8 @@
   "title": "VTEX base AMP store.",
   "builders": {
     "store": "0.x",
-    "react": "3.x"
+    "react": "3.x",
+    "docs": "0.x"
   },
   "peerDependencies": {
     "vtex.store": "2.x"
