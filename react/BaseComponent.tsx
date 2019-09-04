@@ -9,7 +9,7 @@ const BaseComponent = () => {
         specName="default"
         width="400"
         height="205"
-        src="http://brand.vtex.com/static/media/logo.2f3fc60b.svg"
+        src="https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
       />
     </React.Fragment>
   )
